@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5D8EDD98-47AA-4D4D-921E-BD802743F6D9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>webcam picture</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>webcam picture.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>webcam picture.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>webcam picture.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>webcam picture.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="TouchlessLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\TouchlessLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admincreation.Designer.vb">
+      <DependentUpon>admincreation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admincreation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminpasswordsDataSet.vb">
+      <DependentUpon>adminpasswordsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="database.Designer.vb">
+      <DependentUpon>database.vb</DependentUpon>
+    </Compile>
+    <Compile Include="database.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PROTOTYPE.Designer.vb">
+      <DependentUpon>PROTOTYPE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PROTOTYPE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="surveyor1editedDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>surveyor1editedDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="surveyor1_1.Designer.vb">
+      <DependentUpon>surveyor1_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="surveyor1_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="surveyor1_2.Designer.VB">
+      <DependentUpon>surveyor1_2.VB</DependentUpon>
+    </Compile>
+    <Compile Include="surveyor1_2.VB">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="surveyor1_3.Designer.VB">
+      <DependentUpon>surveyor1_3.VB</DependentUpon>
+    </Compile>
+    <Compile Include="surveyor1_3.VB">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="surveyorcreation.Designer.vb">
+      <DependentUpon>surveyorcreation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="surveyorcreation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="surveyorlogin.Designer.vb">
+      <DependentUpon>surveyorlogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="surveyorlogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminlogin.Designer.vb">
+      <DependentUpon>adminlogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adminlogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminpage1.Designer.vb">
+      <DependentUpon>adminpage1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adminpage1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminpasswordsDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>adminpasswordsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INAUGRATION.Designer.vb">
+      <DependentUpon>INAUGRATION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="INAUGRATION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="surveyorpart1.Designer.vb">
+      <DependentUpon>surveyorpart1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="surveyorpart1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="surveypasswordsDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>surveypasswordsDataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="admincreation.resx">
+      <DependentUpon>admincreation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="database.resx">
+      <DependentUpon>database.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PROTOTYPE.resx">
+      <DependentUpon>PROTOTYPE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="surveyor1_1.resx">
+      <DependentUpon>surveyor1_1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="surveyor1_2.resx">
+      <DependentUpon>surveyor1_2.VB</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="surveyor1_3.resx">
+      <DependentUpon>surveyor1_3.VB</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="surveyorcreation.resx">
+      <DependentUpon>surveyorcreation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="surveyorlogin.resx">
+      <DependentUpon>surveyorlogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminlogin.resx">
+      <DependentUpon>adminlogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminpage1.resx">
+      <DependentUpon>adminpage1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INAUGRATION.resx">
+      <DependentUpon>INAUGRATION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="surveyorpart1.resx">
+      <DependentUpon>surveyorpart1.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="adminpasswordsDataSet.xsc">
+      <DependentUpon>adminpasswordsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="adminpasswordsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>adminpasswordsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="adminpasswordsDataSet.xss">
+      <DependentUpon>adminpasswordsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="surveyor1editedDataSet.xsc">
+      <DependentUpon>surveyor1editedDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="surveyor1editedDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>surveyor1editedDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="surveyor1editedDataSet.xss">
+      <DependentUpon>surveyor1editedDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="surveypasswordsDataSet.xsc">
+      <DependentUpon>surveypasswordsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="surveypasswordsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>surveypasswordsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="surveypasswordsDataSet.xss">
+      <DependentUpon>surveypasswordsDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="adminpasswords.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="surveyor1edited.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="surveypasswords.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

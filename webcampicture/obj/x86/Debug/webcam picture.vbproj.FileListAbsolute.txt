@@ -1,0 +1,65 @@
+C:\Users\pree\Documents\Visual Studio 2008\Projects\webcam picture\webcam picture\bin\x86\Debug\webcam picture.exe
+C:\Users\pree\Documents\Visual Studio 2008\Projects\webcam picture\webcam picture\bin\x86\Debug\webcam picture.pdb
+C:\Users\pree\Documents\Visual Studio 2008\Projects\webcam picture\webcam picture\bin\x86\Debug\webcam picture.xml
+C:\Users\pree\Documents\Visual Studio 2008\Projects\webcam picture\webcam picture\bin\x86\Debug\TouchlessLib.dll
+C:\Users\pree\Documents\Visual Studio 2008\Projects\webcam picture\webcam picture\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\pree\Documents\Visual Studio 2008\Projects\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\pree\Documents\Visual Studio 2008\Projects\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\pree\Documents\Visual Studio 2008\Projects\webcam picture\webcam picture\obj\x86\Debug\webcam picture.vbproj.GenerateResource.Cache
+C:\Users\pree\Documents\Visual Studio 2008\Projects\webcam picture\webcam picture\obj\x86\Debug\webcam picture.exe
+C:\Users\pree\Documents\Visual Studio 2008\Projects\webcam picture\webcam picture\obj\x86\Debug\webcam picture.xml
+C:\Users\pree\Documents\Visual Studio 2008\Projects\webcam picture\webcam picture\obj\x86\Debug\webcam picture.pdb
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\webcam picture.exe
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\webcam picture.xml
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\webcam picture.pdb
+G:\medi\medi\webcam picture\webcam picture\bin\x86\Debug\webcam picture.exe.config
+G:\medi\medi\webcam picture\webcam picture\bin\x86\Debug\adminpasswords.accdb
+G:\medi\medi\webcam picture\webcam picture\bin\x86\Debug\surveyor1edited.mdb
+G:\medi\medi\webcam picture\webcam picture\bin\x86\Debug\surveypasswords.accdb
+G:\medi\medi\webcam picture\webcam picture\bin\x86\Debug\webcam picture.exe
+G:\medi\medi\webcam picture\webcam picture\bin\x86\Debug\webcam picture.pdb
+G:\medi\medi\webcam picture\webcam picture\bin\x86\Debug\webcam picture.xml
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.admincreation.resources
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.PROTOTYPE.resources
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.surveyor1_1.resources
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.surveyor1_2.resources
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.surveyor1_3.resources
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.surveyorcreation.resources
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.surveyorlogin.resources
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.adminlogin.resources
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.adminpage1.resources
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.Form1.resources
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.INAUGRATION.resources
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.Login.resources
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.Resources.resources
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.surveyorpart1.resources
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\webcam picture.vbproj.GenerateResource.Cache
+G:\medi\medi\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.database.resources
+G:\webcam picture\webcam picture\bin\x86\Debug\webcam picture.exe.config
+G:\webcam picture\webcam picture\obj\x86\Debug\webcam picture.exe
+G:\webcam picture\webcam picture\obj\x86\Debug\webcam picture.xml
+G:\webcam picture\webcam picture\obj\x86\Debug\webcam picture.pdb
+G:\webcam picture\webcam picture\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.admincreation.resources
+G:\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.database.resources
+G:\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.PROTOTYPE.resources
+G:\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.surveyor1_1.resources
+G:\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.surveyor1_2.resources
+G:\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.surveyor1_3.resources
+G:\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.surveyorcreation.resources
+G:\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.surveyorlogin.resources
+G:\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.adminlogin.resources
+G:\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.adminpage1.resources
+G:\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.Form1.resources
+G:\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.INAUGRATION.resources
+G:\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.Login.resources
+G:\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.Resources.resources
+G:\webcam picture\webcam picture\obj\x86\Debug\WindowsApplication1.surveyorpart1.resources
+G:\webcam picture\webcam picture\obj\x86\Debug\webcam picture.vbproj.GenerateResource.Cache
+G:\webcam picture\webcam picture\bin\x86\Debug\adminpasswords.accdb
+G:\webcam picture\webcam picture\bin\x86\Debug\surveyor1edited.mdb
+G:\webcam picture\webcam picture\bin\x86\Debug\surveypasswords.accdb
+G:\webcam picture\webcam picture\bin\x86\Debug\webcam picture.exe
+G:\webcam picture\webcam picture\bin\x86\Debug\webcam picture.pdb
+G:\webcam picture\webcam picture\bin\x86\Debug\webcam picture.xml
